@@ -1,0 +1,9 @@
+<?php
+
+$con= new mysqli('localhost', 'root', 'password', 'php_simple_crud');
+
+if(!$con){
+    die(mysqli_error($con));
+}
+
+?>
